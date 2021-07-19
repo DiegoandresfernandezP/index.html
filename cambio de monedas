@@ -1,0 +1,33 @@
+tipo = int(input("¿que tipo de moneda desea pasar a dolar?"  + "1: peso colombiano, 2:peso chileno, 3:peso ecuatoriano "))
+if tipo >=1 and tipo <=3:
+     
+   if tipo == 1:
+        monedo = input("¿cuantos pesos colombianos tienes?:")
+        monedo = float(monedo)
+        valo_dolar = 3875
+        dolares = monedo / valo_dolar
+        dolares = round(dolares, 2)
+        dolares = str(dolares)
+        print("Tienes $" + dolares + " dolares")
+   if tipo == 2:
+        monedo = input("¿cuantos pesos chileno tienes?:")
+        monedo = float(monedo)
+        valo_dolar = 3600
+        dolares = monedo / valo_dolar
+        dolares = round(dolares, 2)
+        dolares = str(dolares)
+        print("Tienes $" + dolares + " dolares")
+   if tipo == 3:
+       monedo = input("¿cuantos pesos ecuatorianos tienes?:")
+       monedo = float(monedo)
+       valo_dolar = 3600
+       dolares = monedo / valo_dolar
+       dolares = round(dolares, 2)
+       dolares = str(dolares)
+       print("Tienes $" + dolares + " dolares")
+else:
+    print("ingrse una opcion valida ")
+    
+
+    
+
